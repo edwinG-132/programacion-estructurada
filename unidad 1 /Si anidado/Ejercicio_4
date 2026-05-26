@@ -1,0 +1,16 @@
+El programa de la biblioteca debe preguntar (Leer) cuántos días (Variable) de retraso tiene el libro devuelto. Si (Condicional) tiene 15 días o más de retraso, muestra (Escribir): "Falta muy grave Estás suspendido de la biblioteca por un mes." Si no, el programa revisa (anidado) si tiene 5 días o más de retraso. Si es así, muestra: "Retraso medio. Tienes una multa de $2.00.' Si no cumple ninguna de las anteriores (es decir, menos de5 días), simplemente muestra:"Retraso leve. Te llevas una advertencia, no lo vuelvas a
+hacer.
+
+algoritmo ControlDeRetraso
+   definir Dias como entero
+   escribir "¿cuantos dias tiene de retraso el libro
+   leer Dias
+   Si Dias >= 15 entonces
+       Escribir " falta muy grave. Estas suspendido por un mes "
+    Sino
+        Si Dias >= 5 entonces 
+          Escribir "Retraso medio. Tienes una multa de $2.00"
+    Sino      
+Escribir " Retrasl leve. Te llevas una advertencia, no lo vuelvas hacer"
+  FinSi 
+FinSi
